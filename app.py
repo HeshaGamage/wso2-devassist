@@ -128,10 +128,20 @@ if active_input:
             confidence_help = "Strong documentation match found"
         elif top_distance < 0.5:
             confidence_label = "🟡 Medium confidence"
-            confidence_help = "Moderate documentation match"
+            confidence_help = "Moderate match — verify details in official docs"
+            st.warning(
+                "⚠️ Medium confidence answer. Some details may be incomplete. "
+                "Always verify with the [official WSO2 docs](https://apim.docs.wso2.com).",
+                icon="⚠️"
+            )
         else:
             confidence_label = "🔴 Low confidence"
             confidence_help = "Question may be outside documentation scope"
+            st.error(
+                "🔴 Low confidence. This topic may not be well covered in the "
+                "indexed documentation. Check the "
+                "[official WSO2 docs](https://apim.docs.wso2.com) directly.",
+            )
         
         col1, col2 = st.columns([1, 3])
         with col1:
