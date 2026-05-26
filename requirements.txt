@@ -1,0 +1,11 @@
+chromadb>=0.4
+sentence-transformers>=2.7
+groq>=0.9
+streamlit>=1.30
+mcp>=1.0
+python-dotenv>=1.0
+pandas>=2.0
+numpy>=1.24
+jupyter>=1.0
+tiktoken>=0.7
+langchain-text-splitters>=0.2
