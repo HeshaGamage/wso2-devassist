@@ -1,0 +1,17 @@
+{
+  "total_chunks": 3127,
+  "model": "all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "distance_metric": "cosine",
+  "folders_indexed": [
+    "get-started",
+    "api-design-manage",
+    "api-gateway",
+    "api-security",
+    "ai-gateway",
+    "install-and-setup",
+    "tutorials",
+    "use-cases"
+  ],
+  "chroma_path": "../chroma_db"
+}
