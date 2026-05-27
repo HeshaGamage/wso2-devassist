@@ -4,8 +4,8 @@ An AI-powered developer assistant for WSO2 API Manager. Ask technical questions 
 
 Built to explore how RAG and MCP servers can make complex enterprise documentation actually usable.
 
-**Live demo:** [link]  
-**Demo video:** [link]
+**Live demo:** [https://wso2-devassist.streamlit.app]  
+
 
 ---
 
